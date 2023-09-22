@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startButtons {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.camperaView {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.webcam {
+  /* border: 1px solid black; */
+  width: 500px;
+  height: 400px;
+}
+
+.photoCapture {
+  width: 50%;
+  height: 100%;
+  /* background-color: silver; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.photo {
+  width: 100%;
+  height: 50%;
+}
+
+.downloadBtn {
+  display: block;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btns {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 20px;
+}
+
+.btnPhoto {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
